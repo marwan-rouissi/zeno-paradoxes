@@ -18,7 +18,7 @@ effet, à chaque fois qu'Achille atteint
 le point où se trouvait la Tortue, la créature a progressé davantage, lui échappant
 éternellement.
 
-Donc:
+Algo:
 - Si la postion initiale d'Achille est 0 (achille = 0)
 - et qu'il a un sprint de 10 (vitesse_achille = 10)
 - Si la position initiale de la tortue est 100 (tortue = 100)
@@ -42,7 +42,7 @@ ininterrompue amène Zénon à une conclusion : la pierre ne peut jamais atteind
 l'arbre. Il semblerait que pour ce faire, la pierre doive accomplir une infinité
 d'étapes, ce qui, aux yeux de Zénon, défie toute logique.
 
-Donc:
+Algo:
 - Si la pierre est lancée depuis la distance 0 (pierre = 0)
 - Et que sa cible, l'arbre, se situe à une distance de 100 (arbre = 100)
 <br>
@@ -62,7 +62,7 @@ est un moment où le temps est arrêté, le temps n'existe donc pas. La flèche 
 donc toujours immobile à chaque instant et ne peut pas se déplacer : le
 mouvement est donc impossible.
 
-Donc:
+Algo:
 #### Pour une flèche:
 - position = 0
 - vitesse = 50
@@ -71,3 +71,8 @@ Donc:
 #### La position de la flèche sera de: temps écoulé depuis le tir de la flèche * vitesse de la flèche
 #### Autrement dit, à l'instant t : la position de la flèche sera de:
 - t * vitesse de la flèche 
+
+## Procédé:
+- J'ai commencé par créer une classe Paradoxe prenant pour attribut la vitesse et la position de 2 objets
+- Cette classe est composée de 3 méthodes: une correspondant à chacun des paradoxes
+- J'ai ensuite créé un ficher (App.py) pour la visualisation graphique des paradoxes via une fenêtre Pygame
